@@ -230,6 +230,8 @@ print(y)  # this will raise an error as 'x' is defined outside of it's operating
 ### Declarations in python
 Python is not a type strict language, variables are flexible to contain multiple data types in runtime. Typing is not needed unlike other languages. Some say this is a weak point in python as strict types result in better type hints and cleaner code. One can't assume this variable is this type as it can be changed freely.
 
+Variable references are case sensitive.
+
 There are several syntax rules enforced in python when it comes to variable names,
 	- Variables can not contain special Unicode characters.
 	- Must start with a letter or an underscore.

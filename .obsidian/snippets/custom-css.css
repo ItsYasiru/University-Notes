@@ -1,0 +1,82 @@
+:root {
+    --border-radius: 10px;
+}
+
+.cm-html-embed br {
+    content: "";
+    display: block;
+    margin: -22px 0;
+}
+
+.external-link {
+    display: none;
+}
+
+label {
+    font-size: 12px;
+}
+
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+iframe {
+    width: 100% !important;
+    height: 400px !important;
+    margin: 15px auto;
+    border-radius: var(--border-radius);
+}
+
+.HyperMD-codeblock {
+    padding: 0 18px !important;
+}
+
+.HyperMD-codeblock-begin {
+    padding-top: 8px !important;
+}
+
+/* .HyperMD-codeblock-end {
+    padding-bottom: 8px !important;
+}
+*/
+
+.workspace-ribbon {
+    flex: 0 0 40px;
+    margin-bottom: 23px;
+}
+
+.nav-files-container {
+    overflow-x: hidden;
+}
+
+.nav-file-title {
+    white-space: pre-wrap;
+    width: auto;
+}
+
+.status-bar {
+    gap: 5px;
+    width: 100vw;
+    border-radius: 0;
+    padding: 2px 10px;
+    max-height: none;
+}
+
+.status-bar-item-segment {
+    margin: 0 10px;
+}
+
+.nav-buttons-container {
+    justify-content: left;
+}
+
+.nav-buttons-container svg {
+    width: 17px;
+    height: 17px;
+}
+
+.nav-action-button {
+    margin: 5px;
+}
