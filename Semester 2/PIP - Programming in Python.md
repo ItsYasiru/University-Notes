@@ -26,7 +26,6 @@ Algorithm? Step by step procedure for solving a problem.
 		1. Flow chart
 		2. Pseudocode
 
-
 ## Activity 01
 1. Write a pseudo code that inputs two numbers (a and b) and calculates the sum of the numbers and output the sum.
 
@@ -184,8 +183,8 @@ Python is a high level programming language that is available for many platforms
 <label>Lecture 03 - 2022/10/18</label>
 ## Basic Python Usage
 
-### Printing to the console
-The built-in function `print` can be used to print data to the stdout.
+### Interacting with the console
+The built-in function `print` can be used to print data to the stdout while the inbuilt function `input` can be used to take input from stdin.
 
 ### Comments in python
 Comments inside code provide context for a third party reader. They are used to document code one has written. Undocumented code is a pain to deal with since it's hard to understand. There are two types of comments in python,
@@ -230,13 +229,13 @@ print(y)  # this will raise an error as 'x' is defined outside of it's operating
 ### Declarations in python
 Python is not a type strict language, variables are flexible to contain multiple data types in runtime. Typing is not needed unlike other languages. Some say this is a weak point in python as strict types result in better type hints and cleaner code. One can't assume this variable is this type as it can be changed freely.
 
-Variable references are case sensitive.
-
-There are several syntax rules enforced in python when it comes to variable names,
+Variable references are case sensitive. There are several syntax rules enforced in python when it comes to variable names,
 	- Variables can not contain special Unicode characters.
 	- Must start with a letter or an underscore.
 	- Can not start with a number.
 	- Keywords cannot be used as identifiers/variables, however built in functions can be overwritten.
+
+
 
 ***
 
